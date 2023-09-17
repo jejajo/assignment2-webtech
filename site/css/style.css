@@ -1,0 +1,189 @@
+html {
+  height: 100%;
+}
+
+body {
+  line-height: 70px;
+  background-color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4 {
+  color: white;
+}
+
+.central {
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  padding: 80px 150px 5px 150px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote {
+  color: white;
+  text-align: center;
+  line-height: 20px;
+
+}
+
+
+strong {
+  font-weight: bold;
+}
+
+input {
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mini_logo {
+  height: 15px;
+  width: 15px;
+}
+
+.logo {
+  height: 150x;
+  width: 220px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainContent {
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+
+}
+
+.mainImages {
+  width: 33%;
+  height: 300px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0;
+}
+
+
+.icons {
+  width: 300px;
+  padding-left: 700px;
+}
+
+.nav_list {
+  padding: 20px;
+  font-style: normal;
+}
+
+.nlink {
+  font-style: normal;
+  font-size: 22 px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.nav_link {
+  font-style: normal;
+  font-size: 22 px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.footer_element {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  align-items: flex-start;
+}
+
+.footer_element h4 {
+  width: 30%;
+  font-weight: bold;
+}
+
+.footer_text {
+  width: 30%;
+  font-style: normal;
+  font-size: 40 px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+
+}
+
+.links {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+}
+
+.map {
+  margin: 50px 0px 0px 150px
+}
+
+.links a {
+  /*padding: 5px 18px 5px 0px;*/
+}
+
+.footer_text span {
+  /*padding: 5px 150px 5px 0px;*/
+}
